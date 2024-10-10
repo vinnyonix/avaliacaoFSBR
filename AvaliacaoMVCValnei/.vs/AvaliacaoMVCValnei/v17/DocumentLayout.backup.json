@@ -1,0 +1,632 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\vinny\\source\\repos\\AvaliacaoMVCValnei\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{68F2DF36-A1A6-48AB-A3D7-C97B9AA6D3B5}|AvaliacaoMVCValnei.App\\AvaliacaoMVCValnei.App.csproj|c:\\users\\vinny\\source\\repos\\avaliacaomvcvalnei\\avaliacaomvcvalnei.app\\views\\obs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68F2DF36-A1A6-48AB-A3D7-C97B9AA6D3B5}|AvaliacaoMVCValnei.App\\AvaliacaoMVCValnei.App.csproj|solutionrelative:avaliacaomvcvalnei.app\\views\\obs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68F2DF36-A1A6-48AB-A3D7-C97B9AA6D3B5}|AvaliacaoMVCValnei.App\\AvaliacaoMVCValnei.App.csproj|c:\\users\\vinny\\source\\repos\\avaliacaomvcvalnei\\avaliacaomvcvalnei.app\\views\\process\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68F2DF36-A1A6-48AB-A3D7-C97B9AA6D3B5}|AvaliacaoMVCValnei.App\\AvaliacaoMVCValnei.App.csproj|solutionrelative:avaliacaomvcvalnei.app\\views\\process\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68F2DF36-A1A6-48AB-A3D7-C97B9AA6D3B5}|AvaliacaoMVCValnei.App\\AvaliacaoMVCValnei.App.csproj|c:\\users\\vinny\\source\\repos\\avaliacaomvcvalnei\\avaliacaomvcvalnei.app\\controllers\\obscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68F2DF36-A1A6-48AB-A3D7-C97B9AA6D3B5}|AvaliacaoMVCValnei.App\\AvaliacaoMVCValnei.App.csproj|solutionrelative:avaliacaomvcvalnei.app\\controllers\\obscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68F2DF36-A1A6-48AB-A3D7-C97B9AA6D3B5}|AvaliacaoMVCValnei.App\\AvaliacaoMVCValnei.App.csproj|c:\\users\\vinny\\source\\repos\\avaliacaomvcvalnei\\avaliacaomvcvalnei.app\\views\\process\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68F2DF36-A1A6-48AB-A3D7-C97B9AA6D3B5}|AvaliacaoMVCValnei.App\\AvaliacaoMVCValnei.App.csproj|solutionrelative:avaliacaomvcvalnei.app\\views\\process\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68F2DF36-A1A6-48AB-A3D7-C97B9AA6D3B5}|AvaliacaoMVCValnei.App\\AvaliacaoMVCValnei.App.csproj|c:\\users\\vinny\\source\\repos\\avaliacaomvcvalnei\\avaliacaomvcvalnei.app\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68F2DF36-A1A6-48AB-A3D7-C97B9AA6D3B5}|AvaliacaoMVCValnei.App\\AvaliacaoMVCValnei.App.csproj|solutionrelative:avaliacaomvcvalnei.app\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68F2DF36-A1A6-48AB-A3D7-C97B9AA6D3B5}|AvaliacaoMVCValnei.App\\AvaliacaoMVCValnei.App.csproj|c:\\users\\vinny\\source\\repos\\avaliacaomvcvalnei\\avaliacaomvcvalnei.app\\views\\process\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68F2DF36-A1A6-48AB-A3D7-C97B9AA6D3B5}|AvaliacaoMVCValnei.App\\AvaliacaoMVCValnei.App.csproj|solutionrelative:avaliacaomvcvalnei.app\\views\\process\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68F2DF36-A1A6-48AB-A3D7-C97B9AA6D3B5}|AvaliacaoMVCValnei.App\\AvaliacaoMVCValnei.App.csproj|c:\\users\\vinny\\source\\repos\\avaliacaomvcvalnei\\avaliacaomvcvalnei.app\\views\\process\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68F2DF36-A1A6-48AB-A3D7-C97B9AA6D3B5}|AvaliacaoMVCValnei.App\\AvaliacaoMVCValnei.App.csproj|solutionrelative:avaliacaomvcvalnei.app\\views\\process\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68F2DF36-A1A6-48AB-A3D7-C97B9AA6D3B5}|AvaliacaoMVCValnei.App\\AvaliacaoMVCValnei.App.csproj|c:\\users\\vinny\\source\\repos\\avaliacaomvcvalnei\\avaliacaomvcvalnei.app\\controllers\\processcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68F2DF36-A1A6-48AB-A3D7-C97B9AA6D3B5}|AvaliacaoMVCValnei.App\\AvaliacaoMVCValnei.App.csproj|solutionrelative:avaliacaomvcvalnei.app\\controllers\\processcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68F2DF36-A1A6-48AB-A3D7-C97B9AA6D3B5}|AvaliacaoMVCValnei.App\\AvaliacaoMVCValnei.App.csproj|c:\\users\\vinny\\source\\repos\\avaliacaomvcvalnei\\avaliacaomvcvalnei.app\\models\\processmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68F2DF36-A1A6-48AB-A3D7-C97B9AA6D3B5}|AvaliacaoMVCValnei.App\\AvaliacaoMVCValnei.App.csproj|solutionrelative:avaliacaomvcvalnei.app\\models\\processmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68F2DF36-A1A6-48AB-A3D7-C97B9AA6D3B5}|AvaliacaoMVCValnei.App\\AvaliacaoMVCValnei.App.csproj|c:\\users\\vinny\\source\\repos\\avaliacaomvcvalnei\\avaliacaomvcvalnei.app\\views\\process\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68F2DF36-A1A6-48AB-A3D7-C97B9AA6D3B5}|AvaliacaoMVCValnei.App\\AvaliacaoMVCValnei.App.csproj|solutionrelative:avaliacaomvcvalnei.app\\views\\process\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 111,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:139:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:141:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:137:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:137:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:138:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:138:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:140:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:139:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:141:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:140:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:143:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:144:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:145:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:142:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:146:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:148:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:147:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:150:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:149:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:151:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:152:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:136:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:142:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:136:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:143:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:146:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:145:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:153:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:154:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:151:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:156:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:155:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:157:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:159:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:158:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:161:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:160:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:163:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:162:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:165:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:166:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:164:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:167:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:168:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:170:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:169:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:172:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:171:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:174:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:175:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:176:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:173:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:178:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:179:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:181:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:177:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:180:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:183:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:184:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:182:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:185:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:187:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:186:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:189:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:188:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:191:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:190:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:193:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:192:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:195:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:194:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:196:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:198:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:197:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:200:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:199:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:202:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:204:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:201:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:203:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:206:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:207:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:205:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:209:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:208:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:211:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:212:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:213:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:210:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\vinny\\source\\repos\\AvaliacaoMVCValnei\\AvaliacaoMVCValnei.App\\Views\\Process\\Edit.cshtml",
+              "RelativeDocumentMoniker": "AvaliacaoMVCValnei.App\\Views\\Process\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\vinny\\source\\repos\\AvaliacaoMVCValnei\\AvaliacaoMVCValnei.App\\Views\\Process\\Edit.cshtml",
+              "RelativeToolTip": "AvaliacaoMVCValnei.App\\Views\\Process\\Edit.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABYAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-10T16:40:02.855Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\vinny\\source\\repos\\AvaliacaoMVCValnei\\AvaliacaoMVCValnei.App\\Views\\Process\\Details.cshtml",
+              "RelativeDocumentMoniker": "AvaliacaoMVCValnei.App\\Views\\Process\\Details.cshtml",
+              "ToolTip": "C:\\Users\\vinny\\source\\repos\\AvaliacaoMVCValnei\\AvaliacaoMVCValnei.App\\Views\\Process\\Details.cshtml",
+              "RelativeToolTip": "AvaliacaoMVCValnei.App\\Views\\Process\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAABrAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-10T16:40:08.535Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\vinny\\source\\repos\\AvaliacaoMVCValnei\\AvaliacaoMVCValnei.App\\Views\\Process\\Index.cshtml",
+              "RelativeDocumentMoniker": "AvaliacaoMVCValnei.App\\Views\\Process\\Index.cshtml",
+              "ToolTip": "C:\\Users\\vinny\\source\\repos\\AvaliacaoMVCValnei\\AvaliacaoMVCValnei.App\\Views\\Process\\Index.cshtml",
+              "RelativeToolTip": "AvaliacaoMVCValnei.App\\Views\\Process\\Index.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAUwBEAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-10T14:51:12.569Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\vinny\\source\\repos\\AvaliacaoMVCValnei\\AvaliacaoMVCValnei.App\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "AvaliacaoMVCValnei.App\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\vinny\\source\\repos\\AvaliacaoMVCValnei\\AvaliacaoMVCValnei.App\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "AvaliacaoMVCValnei.App\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAkwBsAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-10T17:18:25.833Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\vinny\\source\\repos\\AvaliacaoMVCValnei\\AvaliacaoMVCValnei.App\\Views\\Process\\Create.cshtml",
+              "RelativeDocumentMoniker": "AvaliacaoMVCValnei.App\\Views\\Process\\Create.cshtml",
+              "ToolTip": "C:\\Users\\vinny\\source\\repos\\AvaliacaoMVCValnei\\AvaliacaoMVCValnei.App\\Views\\Process\\Create.cshtml",
+              "RelativeToolTip": "AvaliacaoMVCValnei.App\\Views\\Process\\Create.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-10T16:12:45.669Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ObsController.cs",
+              "DocumentMoniker": "C:\\Users\\vinny\\source\\repos\\AvaliacaoMVCValnei\\AvaliacaoMVCValnei.App\\Controllers\\ObsController.cs",
+              "RelativeDocumentMoniker": "AvaliacaoMVCValnei.App\\Controllers\\ObsController.cs",
+              "ToolTip": "C:\\Users\\vinny\\source\\repos\\AvaliacaoMVCValnei\\AvaliacaoMVCValnei.App\\Controllers\\ObsController.cs",
+              "RelativeToolTip": "AvaliacaoMVCValnei.App\\Controllers\\ObsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T17:23:35.612Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\vinny\\source\\repos\\AvaliacaoMVCValnei\\AvaliacaoMVCValnei.App\\Views\\Obs\\Index.cshtml",
+              "RelativeDocumentMoniker": "AvaliacaoMVCValnei.App\\Views\\Obs\\Index.cshtml",
+              "ToolTip": "C:\\Users\\vinny\\source\\repos\\AvaliacaoMVCValnei\\AvaliacaoMVCValnei.App\\Views\\Obs\\Index.cshtml",
+              "RelativeToolTip": "AvaliacaoMVCValnei.App\\Views\\Obs\\Index.cshtml",
+              "ViewState": "AgIAADIAAAAAAAAAAAAUwD0AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-10T17:24:06.425Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\vinny\\source\\repos\\AvaliacaoMVCValnei\\AvaliacaoMVCValnei.App\\Views\\Process\\Delete.cshtml",
+              "RelativeDocumentMoniker": "AvaliacaoMVCValnei.App\\Views\\Process\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\vinny\\source\\repos\\AvaliacaoMVCValnei\\AvaliacaoMVCValnei.App\\Views\\Process\\Delete.cshtml",
+              "RelativeToolTip": "AvaliacaoMVCValnei.App\\Views\\Process\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-10T16:28:51.918Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ProcessController.cs",
+              "DocumentMoniker": "C:\\Users\\vinny\\source\\repos\\AvaliacaoMVCValnei\\AvaliacaoMVCValnei.App\\Controllers\\ProcessController.cs",
+              "RelativeDocumentMoniker": "AvaliacaoMVCValnei.App\\Controllers\\ProcessController.cs",
+              "ToolTip": "C:\\Users\\vinny\\source\\repos\\AvaliacaoMVCValnei\\AvaliacaoMVCValnei.App\\Controllers\\ProcessController.cs",
+              "RelativeToolTip": "AvaliacaoMVCValnei.App\\Controllers\\ProcessController.cs",
+              "ViewState": "AgIAAKkAAAAAAAAAAIAwwLgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T16:47:16.14Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ProcessModel.cs",
+              "DocumentMoniker": "C:\\Users\\vinny\\source\\repos\\AvaliacaoMVCValnei\\AvaliacaoMVCValnei.App\\Models\\ProcessModel.cs",
+              "RelativeDocumentMoniker": "AvaliacaoMVCValnei.App\\Models\\ProcessModel.cs",
+              "ToolTip": "C:\\Users\\vinny\\source\\repos\\AvaliacaoMVCValnei\\AvaliacaoMVCValnei.App\\Models\\ProcessModel.cs",
+              "RelativeToolTip": "AvaliacaoMVCValnei.App\\Models\\ProcessModel.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAiwCcAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T16:12:53.525Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:6:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

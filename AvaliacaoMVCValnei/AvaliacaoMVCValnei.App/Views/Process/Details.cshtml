@@ -1,0 +1,56 @@
+﻿@model AvaliacaoMVCValnei.App.Models.ProcessModel
+@using System.Numerics;
+
+@{
+    ViewData["Title"] = "Detalhes do processo";
+}
+
+<h1>Detalhes do processo</h1>
+
+<div>
+    <h4>Exibindo informações do processo</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.NPU)
+        </dt>
+        <dd class = "col-sm-10">
+            @string.Format("{0:0000000-00-0000-0-00-0000}", BigInteger.Parse(Model.NPU!)).Replace("-", ".")
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.CreateAt)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.CreateAt)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.ViewedAt)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.ViewedAt)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Municipality)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Municipality)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.FederativeUnit)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.FederativeUnit)
+        </dd>
+    </dl>
+</div>
+<br />
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.ProcessId">Editar</a> |
+    <a asp-action="Index">Voltar</a>
+</div>

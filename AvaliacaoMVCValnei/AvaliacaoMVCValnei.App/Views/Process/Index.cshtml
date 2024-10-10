@@ -1,0 +1,75 @@
+﻿@model IEnumerable<AvaliacaoMVCValnei.App.Models.ProcessModel>
+@using System.Numerics;
+@using X.PagedList;
+@using X.PagedList.Mvc.Core;
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Lista de processos</h1>
+
+<p>
+    <a asp-action="Create">Criar novo</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.NPU)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CreateAt)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FederativeUnit)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @* @Html.DisplayFor(modelItem => item.NPU) *@
+                @string.Format("{0:0000000-00-0000-0-00-0000}", BigInteger.Parse(item.NPU!)).Replace("-", ".")
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CreateAt)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FederativeUnit)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.ProcessId">Editar</a> |
+                <a asp-action="Details" asp-route-id="@item.ProcessId">Detalhes</a> |
+                <a asp-action="Delete" asp-route-id="@item.ProcessId">Deletar</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+
+@Html.PagedListPager((IPagedList)Model, page => Url.Action("Index", new
+    {
+        page = page,
+        searchfor = @Context.Request.Query["searchfor"],
+        searchby = @Context.Request.Query["searchby"],
+        sortby = @Context.Request.Query["sortby"]
+    }),
+    new X.PagedList.Mvc.Core.PagedListRenderOptions
+{
+    LiElementClasses = new string[] { "page-item" },
+    PageClasses = new string[] { "page-link" }
+})
+
+@section Scripts {
+        <script>
+            // Workaround to fix style of text for showing items .. through ..
+            // Problem related to Boostrap 4 according to issue in link below
+            // https://github.com/dncuug/X.PagedList/issues/127
+            $(document).ready(function () {
+                $('ul.pagination > li.disabled > a').addClass('page-link');
+            });
+        </script>
+}

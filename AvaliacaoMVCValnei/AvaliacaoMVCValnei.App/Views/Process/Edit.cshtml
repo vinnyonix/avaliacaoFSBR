@@ -1,0 +1,59 @@
+﻿@model AvaliacaoMVCValnei.App.Models.ProcessModel
+
+@{
+    ViewData["Title"] = "Editar processo";
+}
+
+<h1>Editar processo</h1>
+
+<h4>Salve após realizar alterações</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="ProcessId" />
+            <div class="form-group">
+                <label asp-for="Name" class="control-label"></label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NPU" class="control-label"></label>
+                <input asp-for="NPU" class="form-control"/>
+                <span asp-validation-for="NPU" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CreateAt" class="control-label"></label>
+                <input asp-for="CreateAt" class="form-control" />
+                <span asp-validation-for="CreateAt" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ViewedAt" class="control-label"></label>
+                <input asp-for="ViewedAt" class="form-control" />
+                <span asp-validation-for="ViewedAt" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Municipality" class="control-label"></label>
+                <input asp-for="Municipality" class="form-control" />
+                <span asp-validation-for="Municipality" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="FederativeUnit" class="control-label"></label>
+                <input asp-for="FederativeUnit" class="form-control" />
+                <span asp-validation-for="FederativeUnit" class="text-danger"></span>
+            </div>
+            <br />
+            <div class="form-group">
+                <input type="submit" value="Salvar" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+<div>
+    <a asp-action="Index">Voltar</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

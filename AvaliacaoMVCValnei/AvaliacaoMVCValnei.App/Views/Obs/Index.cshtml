@@ -1,0 +1,93 @@
+﻿<div class="container px-4 py-5" id="featured-3">
+    <h2 class="pb-2 border-bottom">Requisitos implementados e observações.</h2>
+    <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+        <div class="feature col">
+            <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-success bg-gradient fs-2 mb-3">
+                <img src="~/lista-de-controle.gif" width="50px" height="50px"/>
+            </div>
+            <h3 class="fs-2 text-body-emphasis" style="color: mediumseagreen">Integridade das Informações </h3>
+            <p>O sistema deverá garantir a integridade das informações cadastradas.</p>
+        </div>
+        <div class="feature col">
+            <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-success bg-gradient fs-2 mb-3">
+                <img src="~/lista-de-controle.gif" width="50px" height="50px" />
+            </div>
+            <h3 class="fs-2 text-body-emphasis" style="color: mediumseagreen">Paginação</h3>
+            <p>A tela onde será feita a listagem dos processos deverá ter paginação.</p>
+        </div>
+
+        <div class="feature col">
+            <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-success bg-gradient fs-2 mb-3">
+                <img src="~/lista-de-controle.gif" width="50px" height="50px" />
+            </div>
+            <h3 class="fs-2 text-body-emphasis" style="color: mediumseagreen">Listagem dos dados</h3>
+            <p>
+                Na listagem dos dados deve-se mostrar apenas o npu, a data de cadastro e a UF do
+                processo.
+            </p>
+        </div>
+        <div class="feature col">
+            <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-success bg-gradient fs-2 mb-3">
+                <img src="~/lista-de-controle.gif" width="50px" height="50px" />
+            </div>
+            <h3 class="fs-2 text-body-emphasis" style="color: mediumseagreen">Exibir detalhes do processo</h3>
+            <p>
+                Ao clicar em visualizar, deverá ser exibido as demais informações do processo, sendo
+                possível realizar a confirmação de visualização e salvando a data e hora em que essa
+                confirmação foi realizada.
+            </p>
+        </div>
+        <div class="feature col">
+            <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-success bg-gradient fs-2 mb-3">
+                <img src="~/lista-de-controle.gif" width="50px" height="50px" />
+            </div>
+            <h3 class="fs-2 text-body-emphasis" style="color: mediumseagreen">Consumo da API do IBGE</h3>
+            <p>
+                Na listagem dos dados deve-se mostrar apenas o npu, a data de cadastro e a UF do
+                processo.
+            </p>
+            <p>
+                por serem poucos dados, a busca na API no IBGE é realizada no carregamento do controller e 
+                mantendo a lista para a tela de criação usar. Esta melhoria foi implementada evitando 
+                impacto no desempenho da aplicação acessar a API a cada click.
+            </p>
+        </div>
+
+        <div class="feature col">
+            <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-success bg-gradient fs-2 mb-3">
+                <img src="~/gostar.gif" width="50px" height="50px" />
+            </div>
+            <h3 class="fs-2 text-body-emphasis" style="color: mediumseagreen">Start da Aplicação</h3>
+            <p>
+                Deve-se alterar a ConnectionsStrings e executar os seguintes commandos do EntityFrameWork.
+            </p>
+            <p>
+                <code>dotnet ef migrations add InitialCreate</code>
+                <code>dotnet ef database update</code>
+            </p>
+        </div>
+
+        <div class="feature col">
+            <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-success bg-gradient fs-2 mb-3">
+                <img src="~/gostar.gif" width="50px" height="50px" />
+            </div>
+            <h3 class="fs-2 text-body-emphasis" style="color: mediumseagreen">Validação da Entidade</h3>
+
+            <p>
+                Eu usei DataAnnnotations porém em uma aplicação real eu usaria o Fluent Validations.
+            </p>
+        </div>
+
+        <div class="feature col">
+            <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-success bg-gradient fs-2 mb-3">
+                <img src="~/conexao.gif" width="50px" height="50px" />
+            </div>
+            <h3 class="fs-2 text-body-emphasis" style="color: mediumseagreen">Tecnologias e recursos</h3>
+
+            <p>
+                SingleTon, Repository, IoC, Injeção de Dependência, Paralelismo, Assincronicidade, Herança, Generics, SOLID, CLeanCode,
+                Iterfaces, Middlewares são algumas tecnologias usada neste projeto.
+            </p>
+        </div>
+    </div>
+</div>
